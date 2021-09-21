@@ -1,6 +1,7 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
-
+const math = require('remark-math');
+const katex = require('rehype-katex');
 // With JSDoc @type annotations, IDEs can provide config autocompletion
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (module.exports = {
@@ -23,6 +24,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl: 'https://github.com/jbwaring/avionics-website-capstone/tree/main/',
+          remarkPlugins: [math],
+          rehypePlugins: [katex],
         },
         blog: {
           showReadingTime: true,
@@ -36,7 +39,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       }),
     ],
   ],
-
+  stylesheets: [
+    {
+      href: 'https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css',
+      type: 'text/css',
+      crossorigin: 'anonymous',
+    },
+  ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -46,6 +55,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           alt: 'My Site Logo',
           src: 'img/logo.svg',
         },
+        
         items: [
           {
             type: 'doc',
@@ -65,6 +75,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             position: 'right',
           },
         ],
+      },
+      announcementBar: {
+        id: 'support_us',
+        content:
+          'We are looking for feedback to improve your experience. <a target="_blank" rel="noopener noreferrer" href="mailto:j_warin@live.concordia.ca?subject=Feedback%20on%20Avionics%20Website">Tell us what you think!</a>',
+        backgroundColor: '#fafbfc',
+        textColor: '#091E42',
+        isCloseable: true,
       },
       footer: {
         style: 'dark',

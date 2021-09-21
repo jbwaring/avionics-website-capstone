@@ -11,7 +11,7 @@
   background: url("https://www.dropbox.com/s/xvgy6j16ly0dgls/site-landing-img.jpg?raw=1");
   background-size: cover;
   background-position: 100px;
-  
+  min-height: 500px;
 
 
 }
