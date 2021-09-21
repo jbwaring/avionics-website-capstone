@@ -54,6 +54,7 @@ const katex = require('rehype-katex');
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
+          srcDark: 'img/logoDark.svg'
         },
         
         items: [
