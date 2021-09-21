@@ -41,9 +41,13 @@
   padding: 30px
 }
 #seeWhatsNewImg {
-  width: 50%;
+  height: 100px;
+  padding: 20%;
   justify-self: center;
-  padding: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../../static/img/newspaper.svg");
+
 }
 #seeWhatsNewTitleGradient {
   color: transparent;
