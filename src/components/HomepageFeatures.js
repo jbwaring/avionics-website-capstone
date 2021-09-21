@@ -34,7 +34,7 @@ const FeatureList = [
 
 function Feature({Svg, title, description}) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx('col col--4', styles.FeatureCard)}>
       <div className="text--center">
         <Svg className={styles.featureSvg} alt={title} />
       </div>

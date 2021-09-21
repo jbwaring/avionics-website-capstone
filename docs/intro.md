@@ -2,34 +2,12 @@
 sidebar_position: 1
 ---
 
-# 
+# Fundamentals of Avionics Navigation Systems
 
-Let's discover **Docusaurus in less than 5 minutes**.
+<!-- A special thanks to Dr. Luis Rodrigues, who made this section possible. See his [Explore Concordia Page](http://explore.concordia.ca/luis-rodrigues) -->
 
-## Getting Started
+## Introduction
 
-Get started by **creating a new site**.
+To power our UAV, we will need to use modern avionics systems.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**:
-
-```shell
-npx @docusaurus/init@latest init my-website classic
-```
-
-## Start your site
-
-Run the development server:
-
-```shell
-cd my-website
-
-npx docusaurus start
-```
-
-Your site starts at `http://localhost:3000`.
-
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and display your changes.
+$$\LaTeX$$

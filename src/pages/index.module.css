@@ -10,7 +10,7 @@
   overflow: hidden;
   background: url("https://www.dropbox.com/s/xvgy6j16ly0dgls/site-landing-img.jpg?raw=1");
   background-size: cover;
-  background-position: 100px;
+  background-position: 300px 200px;
   min-height: 500px;
 }
 
@@ -28,4 +28,30 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.seeWhatsNew {
+  margin: 10px 10px;
+  text-align: left;
+  background-color: rgba(38,172,124,0.3);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding: 30px
+}
+#seeWhatsNewImg {
+  width: 50%;
+  justify-self: center;
+  padding: 20px;
+}
+#seeWhatsNewTitleGradient {
+  color: transparent;
+  font-size:xx-large;
+  font-weight: 700;
+  background-color: #26AC7C;
+  -webkit-background-clip: text;
+  background-clip: text;
+  padding-bottom: 30px;
+  justify-self: center;
+  padding: 20px 0px;
 }
