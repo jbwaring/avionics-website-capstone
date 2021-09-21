@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 (module.exports = {
   title: 'AERO 490 Avionics',
   tagline: 'INS is Cool!',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://avionics.jbwaring.com/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -22,13 +22,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
+          editUrl: 'https://github.com/jbwaring/avionics-website-capstone/tree/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/main/website/blog/',
+            'https://github.com/jbwaring/avionics-website-capstone/tree/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -109,7 +109,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           //   ],
           // },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built by Jean-Baptiste Waring.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Jean-Baptiste Waring.`,
       },
       prism: {
         theme: lightCodeTheme,
