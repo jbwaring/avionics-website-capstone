@@ -40,6 +40,15 @@
   align-items: center;
   padding: 30px
 }
+.seeWhatsNewBlue {
+  margin: 10px 10px;
+  text-align: left;
+  background-color: rgba(38, 130, 172, 0.3);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding: 30px
+}
 #seeWhatsNewImg {
   height: 100px;
   padding: 20%;

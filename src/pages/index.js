@@ -36,6 +36,17 @@ function HomepageHeader() {
           </div>
             <img id={styles.seeWhatsNewImg}/>
       </div>
+      <div className={clsx(''), styles.seeWhatsNewBlue}>
+        <div id={styles.seeWhatsNewTextWrapper}>
+        <h2 id={styles.seeWhatsNewTitleGradient}>Get the tentative subject-list here.</h2>
+            <Link
+              className="button button--primary button--lg"
+              to="https://www.dropbox.com/s/pds0i7s6q9w91zh/AERO-490-Avionics-Tentative-Subject-List.xlsx?dl=0">
+              Download
+            </Link>
+          </div>
+            {/* <img id={styles.seeWhatsNewImg}/> */}
+      </div>
   </div>
   );
 }
