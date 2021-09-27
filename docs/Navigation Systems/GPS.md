@@ -2,7 +2,11 @@
 sidebar_position: 2
 title: Satellite Navigation Systems
 ---
+:::info Requirement
 
+*Pending*
+
+:::
 
 :::tip Key Points
 
